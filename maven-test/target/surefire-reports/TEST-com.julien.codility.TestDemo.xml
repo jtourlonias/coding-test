@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.323" errors="0" skipped="0" tests="7" name="com.julien.codility.TestDemo">
+<testsuite failures="0" time="0.002" errors="0" skipped="0" tests="7" name="com.julien.codility.TestDemo">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/julien/Documents/workspace/maven-test"/>
+    <property name="user.dir" value="/home/julien/git/repo/maven-test"/>
     <property name="java.runtime.version" value="1.7.0_09-b30"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed"/>
@@ -24,7 +24,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/julien/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf4693916699000537851.tmp"/>
+    <property name="classworlds.conf" value="/home/julien/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf3210346035192040812.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/server:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/../lib/i386:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -51,7 +51,7 @@
     <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/home/julien/Documents/workspace/maven-test/EMBEDDED"/>
+    <property name="maven.home" value="/home/julien/git/repo/maven-test/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -59,11 +59,11 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.007" classname="com.julien.codility.TestDemo" name="testDemoArrayWithIndexEquiPositionThree"/>
-  <testcase time="0" classname="com.julien.codility.TestDemo" name="testDemoArrayWithIndexEquiBeforeLastPosition"/>
-  <testcase time="0" classname="com.julien.codility.TestDemo" name="testDemoArrayWithIndexEquiLastPosition"/>
-  <testcase time="0" classname="com.julien.codility.TestDemo" name="testDemoArrayWithIndexEquiSecondPosition"/>
-  <testcase time="0" classname="com.julien.codility.TestDemo" name="testDemoArrayWithIndexEquiFirstPosition"/>
-  <testcase time="0" classname="com.julien.codility.TestDemo" name="testDemoEmptyArray"/>
-  <testcase time="0" classname="com.julien.codility.TestDemo" name="testDemoArrayWithoutIndexEqui"/>
+  <testcase time="0" classname="com.julien.codility.TestDemo" name="testEmptyArray"/>
+  <testcase time="0" classname="com.julien.codility.TestDemo" name="testArrayWithIndexEquiBeforeLastPosition"/>
+  <testcase time="0" classname="com.julien.codility.TestDemo" name="testArrayWithIndexEquiFirstPosition"/>
+  <testcase time="0" classname="com.julien.codility.TestDemo" name="testArrayWithIndexEquiSecondPosition"/>
+  <testcase time="0" classname="com.julien.codility.TestDemo" name="testArrayWithIndexEquiLastPosition"/>
+  <testcase time="0" classname="com.julien.codility.TestDemo" name="testArrayWithoutIndexEqui"/>
+  <testcase time="0" classname="com.julien.codility.TestDemo" name="testArrayWithIndexEquiPositionThree"/>
 </testsuite>

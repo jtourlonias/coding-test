@@ -10,7 +10,7 @@ public class TestDemo {
 	}
 
 	@Test
-	public void testDemoEmptyArray() {
+	public void testEmptyArray() {
 
 		int tab[] = {};
 		Demo demo = new Demo();
@@ -20,7 +20,7 @@ public class TestDemo {
 	}
 
 	@Test
-	public void testDemoArrayWithoutIndexEqui() {
+	public void testArrayWithoutIndexEqui() {
 
 		int tab[] = { -1, 0, 1 };
 		Demo demo = new Demo();
@@ -30,7 +30,7 @@ public class TestDemo {
 	}
 
 	@Test
-	public void testDemoArrayWithIndexEquiBeforeLastPosition() {
+	public void testArrayWithIndexEquiBeforeLastPosition() {
 
 		int tab[] = { 1, 1, 1, 1, 1, 1, 5 };
 		Demo demo = new Demo();
@@ -40,7 +40,7 @@ public class TestDemo {
 	}
 
 	@Test
-	public void testDemoArrayWithIndexEquiSecondPosition() {
+	public void testArrayWithIndexEquiSecondPosition() {
 
 		int tab[] = { 5, 1, 1, 1, 1, 1, 1 };
 		Demo demo = new Demo();
@@ -50,7 +50,7 @@ public class TestDemo {
 	}
 
 	@Test
-	public void testDemoArrayWithIndexEquiFirstPosition() {
+	public void testArrayWithIndexEquiFirstPosition() {
 
 		int tab[] = { 0, 1, 5, 2, -4, 3, -7 };
 		Demo demo = new Demo();
@@ -60,7 +60,7 @@ public class TestDemo {
 	}
 
 	@Test
-	public void testDemoArrayWithIndexEquiLastPosition() {
+	public void testArrayWithIndexEquiLastPosition() {
 
 		int tab[] = { -7, 1, 5, 2, -4, 3, 0 };
 		Demo demo = new Demo();
@@ -70,7 +70,7 @@ public class TestDemo {
 	}
 
 	@Test
-	public void testDemoArrayWithIndexEquiPositionThree() {
+	public void testArrayWithIndexEquiPositionThree() {
 
 		int tab[] = { -7, 1, 5, 8, -4, 3, 0 };
 		Demo demo = new Demo();
