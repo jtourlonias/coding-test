@@ -30,6 +30,8 @@ public class Demo {
 		for (int i = 0; i < A.length; i++) {
 			sumRight = sumRight + A[i];
 		}
+		int c=3;
+		String a = "r"+c;
 		
 		// test equi index on the right position, if yes return it
 		if (sumRight - A[0] == 0)

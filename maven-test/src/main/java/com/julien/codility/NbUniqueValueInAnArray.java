@@ -1,7 +1,7 @@
 package com.julien.codility;
 
+import java.util.HashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class NbUniqueValueInAnArray {
 
@@ -11,7 +11,7 @@ public class NbUniqueValueInAnArray {
 
 	public int test(int[] A) {
 		
-		Set<Integer> ndAbsDistinct = new TreeSet<Integer>();
+		Set<Integer> ndAbsDistinct = new HashSet<Integer>();
 
 		if (A.length == 0)
 			return -1;
