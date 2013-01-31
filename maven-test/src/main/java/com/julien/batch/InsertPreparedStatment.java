@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
+import com.julien.batch.domain.TestInsert;
+
 public class InsertPreparedStatment {
 
 	public InsertPreparedStatment() {
@@ -89,6 +91,9 @@ public class InsertPreparedStatment {
 		int cpt = 100000;
 		
 		for (int i = 0; i < cpt; i++) {
+//			TestInsert testInsert = new TestInsert();
+//			testInsert.setData("data " + i);
+//			testInsert.setDate(today);
 			ps.setString(1, "data " + i);
 			ps.setDate(2, sqlToday);
 			ps.addBatch();

@@ -35,8 +35,9 @@
 		<property name="hibernate.order_inserts">true</property>
 		<property name="hibernate.order_updates">true</property>        
 
-        <mapping resource="com/julien/batch/domain/TestInsert.hbm.xml"/>
-
+        <!-- <mapping resource="com/julien/batch/domain/TestInsert.hbm.xml"/> -->
+		<mapping class="com.julien.batch.domain.TestInsertJpa" />
+		
     </session-factory>
 
 </hibernate-configuration>

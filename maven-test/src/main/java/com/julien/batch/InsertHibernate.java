@@ -4,9 +4,8 @@ import java.util.Date;
 
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
-import org.hibernate.StatelessSession;
 
-import com.julien.batch.domain.TestInsert;
+import com.julien.batch.domain.TestInsertJpa;
 
 public class InsertHibernate {
 
@@ -21,12 +20,12 @@ public class InsertHibernate {
 		insertHibernate.deleteRecords();
 		insertHibernate.insertRecords();
 
-		HibernateUtil.getSessionFactory().close();
 	}
 
 	public void deleteRecords() {
 
-		Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+		Session session = HibernateUtil.getSessionFactory().openSession();
+
 		session.beginTransaction();
 
 		long start = System.currentTimeMillis();
@@ -39,7 +38,7 @@ public class InsertHibernate {
 		System.out.println("Truncate Table in " + (end - start));
 
 		session.getTransaction().commit();
-
+		session.close();
 	}
 
 	private void insertRecords() {
@@ -50,10 +49,10 @@ public class InsertHibernate {
 		Date date = new Date();
 
 		long start = System.currentTimeMillis();
-		int cpt = 100000;
+		int cpt = 1000;
 
 		for (int i = 0; i < cpt; i++) {
-			TestInsert testInsert = new TestInsert();
+			TestInsertJpa testInsert = new TestInsertJpa();
 			testInsert.setData("data " + i);
 			testInsert.setDate(date);
 			session.save(testInsert);
@@ -70,6 +69,8 @@ public class InsertHibernate {
 				+ (end - start));
 
 		session.getTransaction().commit();
+		
+		session.close();
 
 	}
 }
