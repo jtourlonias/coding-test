@@ -26,7 +26,7 @@ public class TestNbUniqueValueInAnArray {
 		int tab[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
 		NbUniqueValueInAnArray nbUniqueValueInAnArray = new NbUniqueValueInAnArray();
 
-		// test Array without duplicate value 
+		// test Array without duplicate value
 		assertEquals(10, nbUniqueValueInAnArray.test(tab));
 	}
 

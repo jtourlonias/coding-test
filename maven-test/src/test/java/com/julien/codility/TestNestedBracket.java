@@ -1,6 +1,6 @@
 package com.julien.codility;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -19,6 +19,7 @@ public class TestNestedBracket {
 		// test empty String
 		assertEquals(1, nestedBracket.nesting(S));
 	}
+
 	@Test
 	public void testStringWithCorrectNesting() {
 
@@ -28,6 +29,7 @@ public class TestNestedBracket {
 		// test empty String
 		assertEquals(1, nestedBracket.nesting(S));
 	}
+
 	@Test
 	public void testStringWithoutCorrectNesting_1() {
 
@@ -37,6 +39,7 @@ public class TestNestedBracket {
 		// test empty String
 		assertEquals(0, nestedBracket.nesting(S));
 	}
+
 	@Test
 	public void testStringWithoutCorrectNesting_2() {
 

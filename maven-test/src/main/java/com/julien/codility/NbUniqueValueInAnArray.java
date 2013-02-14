@@ -10,7 +10,7 @@ public class NbUniqueValueInAnArray {
 	}
 
 	public int test(int[] A) {
-		
+
 		Set<Integer> ndAbsDistinct = new HashSet<Integer>();
 
 		if (A.length == 0)

@@ -1,10 +1,9 @@
 package com.julien.codility;
 
-
 public class BinaryTreeDepth {
 
 	private int longuestPath = 0;
-	
+
 	public BinaryTreeDepth() {
 		// TODO Auto-generated constructor stub
 	}
@@ -12,7 +11,7 @@ public class BinaryTreeDepth {
 	public int treeHeight(Tree T) {
 
 		this.longuestPath = 0;
-		
+
 		// search end tree with recursive function
 		readTree(T, 0);
 
