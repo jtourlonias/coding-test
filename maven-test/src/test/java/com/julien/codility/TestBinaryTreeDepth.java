@@ -45,7 +45,7 @@ public class TestBinaryTreeDepth {
 
 		BinaryTreeDepth binaryTreeDepth = new BinaryTreeDepth();
 
-		assertEquals(3, binaryTreeDepth.treeHeight(t));
+		assertEquals(3, binaryTreeDepth.treeDepth(t));
 
 	}
 }
